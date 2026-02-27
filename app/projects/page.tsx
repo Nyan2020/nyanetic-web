@@ -1,4 +1,4 @@
-import { client } from '../utils/sanity'
+import { client } from '../../utils/sanity'
 
 async function getProjects() {
   const query = `*[_type == "project"]{
